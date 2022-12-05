@@ -69,7 +69,7 @@
                 <view class="weui-cell__ft weui-cell__ft_in-access"></view>
             </navigator>      
 
-            <navigator    target="miniProgram"
+          <!--  <navigator    target="miniProgram"
     open-type="navigate"
     app-id="wx8abaf00ee8c3202e"
     extra-data="{{ extraData }}"
@@ -79,15 +79,15 @@
                 </view>
                 <view class="weui-cell__bd">反馈</view>
                 <view class="weui-cell__ft weui-cell__ft_in-access"></view>
-            </navigator>     
+            </navigator>     -->
 
-            <navigator url="../more/more" class="weui-cell weui-cell_example weui-cell_access" hover-class="weui-cell_active">
+           <!-- <navigator url="../more/more" class="weui-cell weui-cell_example weui-cell_access" hover-class="weui-cell_active">
                 <view class="weui-cell__hd">
                     <image src="../../image/more.png" style="margin-right: 16px;vertical-align: middle;width:20px; height: 20px;"></image>
                 </view>
                 <view class="weui-cell__bd">发现</view>
                 <view class="weui-cell__ft weui-cell__ft_in-access"></view>
-            </navigator>       
+            </navigator>      -->
 
             <navigator url="../about/about" class="weui-cell weui-cell_example weui-cell_access" hover-class="weui-cell_active">
                 <view class="weui-cell__hd">
@@ -113,15 +113,15 @@
 <view class="before_footer"> </view>
         <!-- <view class="weui-footer  weui-footer_fixed-bottom"> -->
 
-         <view class="weui-footer">
+        <!-- <view class="weui-footer">
           <view class="weui-footer__links">
-            <!-- <navigator url="../version/version" class="weui-footer__link">V 1.1.3</navigator> -->
+            &lt;!&ndash; <navigator url="../version/version" class="weui-footer__link">V 1.1.3</navigator> &ndash;&gt;
             <button open-type='share'  class="footer_button">分享好友</button>
             </view>
             <view class="weui-footer__text">©2019-2022 REALY</view>
-        </view>
+        </view>-->
 
-        <ad unit-id="adunit-45472909deac0995" style="margin-top: 30rpx;"></ad>
+<!--        <ad unit-id="adunit-45472909deac0995" style="margin-top: 30rpx;"></ad>-->
 
 </view>
 <!-- <view wx:if="{{topTips}}" class="weui-toptips weui-toptips_warn fadeIn {{tophide ? 'fadeOut' : ''}}">专注计时完成后，将会振动提醒</view> -->

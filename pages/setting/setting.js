@@ -9,7 +9,7 @@ Page({
     vibison: false,
     iosDialog2: false,
     avatarUrl: defaultAvatarUrl,
-    appId: "wx8abaf00ee8c3202e",   
+    appId: "wx42d715c522632f72",
     topTips: false,
     tophide: false,
     musicIndex: 0,
